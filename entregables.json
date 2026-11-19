@@ -1,0 +1,32 @@
+{
+  "url": "",
+  "acceso_cliente": false,
+  "nota": "Por ahora la carpeta es de acceso interno de The eLabs. Te compartimos acá el índice de lo que contiene; el acceso para Senna se habilita a pedido.",
+  "items": [
+    {
+      "nombre": "Minutas",
+      "descripcion": "Cada reunión en PDF, la misma que figura en Avances.",
+      "estado": "En curso"
+    },
+    {
+      "nombre": "Flujogramas",
+      "descripcion": "Mapas del proceso y flujos de mensajes.",
+      "estado": "En preparación"
+    },
+    {
+      "nombre": "Reportes",
+      "descripcion": "Los reportes de gestión que se vayan entregando.",
+      "estado": "En preparación"
+    },
+    {
+      "nombre": "Códigos",
+      "descripcion": "Código y especificaciones técnicas del sistema.",
+      "estado": "En preparación"
+    },
+    {
+      "nombre": "Papeles de trabajo",
+      "descripcion": "Material de trabajo compartido durante el relevamiento.",
+      "estado": "En curso"
+    }
+  ]
+}

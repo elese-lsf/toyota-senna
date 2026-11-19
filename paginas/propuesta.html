@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Propuesta · Senna Automotores</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/estilos.css">
+</head>
+<body>
+<div class="wrap">
+
+  
+  <p class="eyebrow">Hoja de ruta</p>
+  <h1>Por dónde empezar y qué viene después</h1>
+  <p class="sub"><strong>El proyecto es un sistema que contacta solo a los suscriptores de planes de ahorro a lo largo de todo el ciclo del plan</strong> —bienvenida, vencimiento, mora, licitación, adjudicación— y que ordena la información de la cartera para poder decidir sobre ella.</p>
+  <p class="sub">Durante el relevamiento aparecieron más necesidades de las que entran en una sola etapa. Ninguna sobra, pero no todas tienen la misma urgencia ni se pueden hacer en cualquier orden. Al seleccionar un camino, el mapa indica qué habilita y qué requiere previamente.</p>
+  <div class="rule"></div>
+  <p class="meta">Senna Automotores · Concesionario oficial Toyota — Santiago del Estero · Planes de ahorro</p>
+
+  <section>
+    <div class="sec-head"><h2>Los dos cimientos</h2></div>
+    <p class="sec-note">No son un camino entre otros: son la condición para que exista cualquier camino. Van siempre, y van primero.</p>
+    <div class="base">
+      <div class="base-card">
+        <span class="base-tag">Cimiento 1</span>
+        <h3>Los datos</h3>
+        <p>La base intermedia y el agente que la actualiza todas las noches desde Newcon y Salesforce. Sin esto no hay avisos, ni reportes, ni reglas de riesgo.</p>
+      </div>
+      <div class="base-card">
+        <span class="base-tag">Cimiento 2</span>
+        <h3>El canal</h3>
+        <p>El permiso para poder escribirle a sus clientes por WhatsApp: el alta de la cuenta de mensajería, la verificación de la empresa ante Meta —la compañía dueña de WhatsApp— y la aprobación de los textos, sobre un número nuevo dedicado a los avisos. Sus plazos dependen de Meta, no de nosotros ni de ustedes.</p>
+      </div>
+    </div>
+    <p class="parallel"><strong>Se avanzan en paralelo, y conviene que así sea.</strong> Mientras se tramita la habilitación ante Meta —tiempo de espera que nadie controla— se construye la base de datos. Cuando el canal queda habilitado, ya hay información lista para usarlo.</p>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Los caminos</h2></div>
+    <p class="sec-note">Cada camino resuelve un problema distinto y tiene su propio alcance. Seleccione los que le interesen para armar su recorrido; si alguno requiere otro camino previo, se incorpora automáticamente.</p>
+    <div class="board">
+      <div class="paths" id="paths"></div>
+      <aside class="panel">
+        <h2 id="panelTitle">Recorrido recomendado</h2>
+        <p class="panel-sub" id="panelSub">El orden que haríamos nosotros. Modifíquelo y pasa a ser el suyo.</p>
+        <ol class="route" id="route"></ol>
+        <div class="actions">
+          <button class="act primary" id="reset" type="button">Ver el orden recomendado</button>
+          <button class="act" id="clear" type="button">Limpiar selección</button>
+        </div>
+        <p class="panel-foot" id="coverage"></p>
+        <p class="panel-foot">Cuando tenga definido el recorrido, lo conversamos y ajustamos el plan de trabajo a ese orden.</p>
+      </aside>
+    </div>
+  </section>
+
+  <div class="warn">
+    <h3>El número: dos etapas, no una</h3>
+    <p>Los avisos de este sistema salen desde un número nuevo, dedicado a eso. Los números con los que hoy atienden a los clientes siguen funcionando exactamente igual mientras el sistema se pone en marcha, sin interrumpir nada. La unificación en un solo número es el paso siguiente, y conviene hacerla recién cuando exista la bandeja de atención: al migrar, ese número deja de operar en la aplicación del teléfono, de modo que ese mismo día debe estar resuelto desde dónde se atiende.</p>
+  </div>
+
+  <footer>
+    <span><em>El dato es el punto de partida. La decisión, el destino.</em></span>
+    <span class="brand-foot"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"> <path class="cls-1" d="M265.3,312.09h-55.15l-21.68-45.31c-2.01-4.2-7.04-5.97-11.23-3.96-4.2,2.01-5.97,7.04-3.96,11.23l20.26,42.35-12.21,12.21h-29.52l-23.36-23.36v-14.55h2.93c2.22,0,4.39-.9,5.96-2.47,1.57-1.57,2.47-3.74,2.47-5.96v-45.73c0-4.65-3.77-8.42-8.42-8.42s-8.42,3.77-8.42,8.42v37.31h-36.47v-17.94c3.12,1.46,6.95.92,9.53-1.66,3.29-3.29,3.29-8.62,0-11.91l-28.61-28.61v-27.47l32.86-32.86c3.29-3.29,3.29-8.62,0-11.91-3.29-3.29-8.62-3.29-11.91,0l-1.87,1.87v-17.22h36.47v34.11c0,4.65,3.77,8.42,8.42,8.42s8.42-3.77,8.42-8.42v-42.54c0-2.22-.9-4.39-2.47-5.96-1.57-1.57-3.74-2.47-5.96-2.47h-2.93v-14.55l23.36-23.36h29.52l11.81,11.81v35.01h-16.17l-13.03-13.03c-3.29-3.29-8.62-3.29-11.91,0-3.29,3.29-3.29,8.62,0,11.91l15.5,15.5c1.57,1.57,3.74,2.47,5.96,2.47h54.65c4.65,0,8.42-3.77,8.42-8.42s-3.77-8.42-8.42-8.42h-18.15v-38.49c0-2.22-.9-4.39-2.47-5.96l-16.74-16.74c-1.57-1.57-3.74-2.47-5.96-2.47h-36.5c-2.22,0-4.39.9-5.96,2.47l-28.29,28.29c-1.57,1.57-2.47,3.74-2.47,5.96v18.04h-33.54c-2.22,0-4.39.9-5.96,2.47-1.57,1.57-2.47,3.74-2.47,5.96v40.17c0,.71.1,1.4.26,2.06l-16.88,16.88c-1.57,1.57-2.47,3.74-2.47,5.96v34.45c0,2.22.9,4.39,2.47,5.96l16.62,16.62s0,.05,0,.07v42.41c0,2.22.9,4.39,2.47,5.96s3.74,2.47,5.96,2.47h33.54v18.04c0,2.22.9,4.39,2.47,5.96l28.29,28.29c1.57,1.57,3.74,2.47,5.96,2.47h36.5c2.22,0,4.39-.9,5.96-2.47l14.06-14.06s0,0,.01,0h60.46c4.65,0,8.42-3.77,8.42-8.42s-3.77-8.42-8.42-8.42Z"/> <path class="cls-2" d="M343,270.28c-3.96-3.97-9.52-6.46-15.58-6.45-6.06,0-11.62,2.48-15.58,6.45-2.02,2.02-3.66,4.45-4.78,7.15h-69.65l-31.51-69.01h72.79c1.12,2.7,2.75,5.14,4.78,7.15,3.96,3.97,9.52,6.46,15.58,6.45,6.06,0,11.62-2.48,15.58-6.45,3.97-3.96,6.46-9.52,6.45-15.58,0-6.06-2.48-11.62-6.45-15.58-3.96-3.97-9.52-6.46-15.58-6.45-6.06,0-11.62,2.48-15.58,6.45-2.02,2.02-3.66,4.45-4.78,7.15h-117.86l16.57-16.57h32.09c3.25,0,6.23-1.89,7.62-4.83l20.23-42.88h58.49c1.12,2.7,2.75,5.14,4.78,7.15,3.96,3.97,9.52,6.46,15.58,6.45,6.06,0,11.62-2.48,15.58-6.45,3.97-3.96,6.46-9.52,6.45-15.58,0-6.06-2.48-11.62-6.45-15.58-3.96-3.97-9.52-6.46-15.58-6.45-6.06,0-11.62,2.48-15.58,6.45-2.02,2.02-3.66,4.45-4.78,7.15h-63.83c-3.25,0-6.23,1.89-7.62,4.83l-20.23,42.88h-30.24c-2.22,0-4.39.9-5.96,2.47l-30.4,30.4c-.18.18-.34.37-.5.56h-41.16c-4.65,0-8.42,3.77-8.42,8.42s3.77,8.42,8.42,8.42h91.49l36.95,80.93c1.37,3,4.36,4.93,7.66,4.93h75.07c1.12,2.7,2.75,5.14,4.78,7.15,3.96,3.97,9.52,6.46,15.58,6.45,6.06,0,11.62-2.48,15.58-6.45,3.97-3.96,6.46-9.52,6.45-15.58,0-6.06-2.48-11.62-6.45-15.58ZM312.53,115.21c.96-.95,2.21-1.51,3.66-1.52,1.46,0,2.7.57,3.66,1.52.95.96,1.51,2.21,1.52,3.66,0,1.46-.57,2.7-1.52,3.66-.96.95-2.21,1.51-3.66,1.52-1.46,0-2.7-.57-3.66-1.52-.95-.96-1.51-2.21-1.52-3.66,0-1.46.57-2.7,1.52-3.66ZM295.38,196.34c.96-.95,2.21-1.51,3.66-1.52,1.46,0,2.7.57,3.66,1.52.95.96,1.51,2.21,1.52,3.66,0,1.46-.57,2.7-1.52,3.66-.96.95-2.21,1.51-3.66,1.52-1.46,0-2.7-.57-3.66-1.52-.95-.96-1.51-2.21-1.52-3.66,0-1.46.57-2.7,1.52-3.66ZM331.08,289.52c-.96.95-2.21,1.51-3.66,1.52-1.46,0-2.7-.57-3.66-1.52-.95-.96-1.51-2.21-1.52-3.66,0-1.46.57-2.7,1.52-3.66.96-.95,2.21-1.51,3.66-1.52,1.46,0,2.7.57,3.66,1.52.95.96,1.51,2.21,1.52,3.66,0,1.46-.57,2.7-1.52,3.66Z"/> </svg> The eLabs · theelabs.tech · Septiembre 2026</span>
+  </footer>
+</div>
+<script>
+
+const PATHS = [
+  { id:'A', name:'Cobranza del tramo temprano',
+    what:'Los cinco avisos que evitan que la mora temprana se convierta en un plan caído: bienvenida, agrupamiento, vencimiento, mora y 2º barrido.',
+    needs:['Base de datos','Canal de WhatsApp'], reqAll:[], reqAny:[], when:'Primero. Es donde está el dinero: unos 270 planes por año.', inProposal:true },
+  { id:'B', name:'Ciclo comercial',
+    what:'Invitación a licitar, adjudicación, vencimiento de tarjeta, campañas de marketing y campaña de referidos.',
+    needs:['Base de datos','Canal de WhatsApp'], reqAll:[], reqAny:[], when:'Una vez que la cobranza corre sola.', inProposal:true },
+  { id:'C', name:'Conformidad y riesgo temprano',
+    what:'Trae las respuestas del Anexo a la operación y las convierte en reglas que anticipan quién se va a atrasar.',
+    needs:['Base de datos'], reqAll:['A'], reqAny:[], when:'Cuando haya secuencias que segmentar.', inProposal:true },
+  { id:'D', name:'Reportes de gestión comercial',
+    what:'Suscripciones del mes, caídas en carrera temprana y desempeño por vendedor cruzado con los descuentos que dio.',
+    needs:['Base de datos'], reqAll:[], reqAny:[], when:'En paralelo con la cobranza: es el único que no depende del canal.', inProposal:true, free:true },
+  { id:'E', name:'Atención de las respuestas',
+    what:'Bandeja multiagente: un número, varios operadores, el cliente elige sector y conversa con un responsable.',
+    needs:['Canal de WhatsApp'], reqAll:[], reqAny:[], when:'Cuando los envíos empiecen a generar respuestas.', inProposal:false },
+  { id:'M', name:'Unificación en un solo número',
+    what:'Migrar a la plataforma el número con el que hoy atienden, para que toda la cartera escriba a un mismo lugar.',
+    needs:['Canal de WhatsApp'], reqAll:['E'], reqAny:[], when:'Recién con la bandeja lista: al migrar, ese número deja de operar en el teléfono.', inProposal:false },
+  { id:'F', name:'Plataforma de autogestión',
+    what:'Que ustedes definan campañas, editen los mensajes y obtengan reportes sin depender de nosotros.',
+    needs:['Base de datos','Canal de WhatsApp'], reqAll:[], reqAny:['A','B'], when:'Cuando ya sepan qué campañas quieren.', inProposal:true },
+  { id:'G', name:'Etapas posteriores',
+    what:'Llamada de voz con IA, sincronización de contactos con Newcon y campañas de postventa.',
+    needs:[], reqAll:[], reqAny:[], when:'Después de medir resultados, y con datos a la vista.', inProposal:false },
+];
+const RECOMMENDED = ['A','D','C','E','M','F','B'];
+const SHORT = {"A": "Cobranza", "B": "Ciclo comercial", "C": "Conformidad", "D": "Reportes", "E": "Atención de respuestas", "M": "Número único", "F": "Autogestión", "G": "Etapas posteriores"};
+const byId = id => PATHS.find(p => p.id === id);
+
+let route = RECOMMENDED.slice();
+let touched = false;
+
+const elPaths = document.getElementById('paths');
+const elRoute = document.getElementById('route');
+const elTitle = document.getElementById('panelTitle');
+const elSub   = document.getElementById('panelSub');
+const elCov   = document.getElementById('coverage');
+
+function missing(p){
+  const m = p.reqAll.filter(r => !route.includes(r));
+  if (p.reqAny.length && !p.reqAny.some(r => route.includes(r))) m.push(p.reqAny.join(' o '));
+  return m;
+}
+
+function toggle(id){
+  touched = true;
+  const p = byId(id);
+  if (route.includes(id)) {
+    route = route.filter(x => x !== id);
+    // soltar los que dependían de él
+    let changed = true;
+    while (changed) {
+      changed = false;
+      route = route.filter(x => {
+        const q = byId(x);
+        const okAll = q.reqAll.every(r => route.includes(r));
+        const okAny = !q.reqAny.length || q.reqAny.some(r => route.includes(r));
+        if (!okAll || !okAny) { changed = true; return false; }
+        return true;
+      });
+    }
+  } else {
+    p.reqAll.forEach(r => { if (!route.includes(r)) route.push(r); });
+    if (p.reqAny.length && !p.reqAny.some(r => route.includes(r))) route.push(p.reqAny[0]);
+    route.push(id);
+  }
+  render();
+}
+
+function render(){
+  elPaths.innerHTML = '';
+  PATHS.forEach(p => {
+    const pos = route.indexOf(p.id);
+    const on = pos !== -1;
+    const miss = missing(p);
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'card' + (!on && miss.length ? ' blocked' : '');
+    b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    b.addEventListener('click', () => toggle(p.id));
+
+    const chips = [];
+    p.needs.forEach(n => chips.push('<span class="chip met">' + n + '</span>'));
+    p.reqAll.forEach(r => chips.push('<span class="chip ' + (route.includes(r) ? 'met' : 'unmet') + '">Antes: ' + SHORT[r] + '</span>'));
+    if (p.reqAny.length) {
+      const ok = p.reqAny.some(r => route.includes(r));
+      chips.push('<span class="chip ' + (ok ? 'met' : 'unmet') + '">Antes: ' + p.reqAny.map(r => SHORT[r]).join(' o ') + '</span>');
+    }
+    chips.push('<span class="chip ' + (p.inProposal ? 'inc' : '') + '">' + (p.inProposal ? 'En la propuesta' : 'Cotización aparte') + '</span>');
+
+    b.innerHTML =
+      '<div class="card-top">' +
+        '<span class="code">' + p.id + '</span>' +
+        '<h3>' + p.name + '</h3>' +
+        (on ? '<span class="step">Paso ' + (pos + 1) + '</span>' : '') +
+      '</div>' +
+      '<p>' + p.what + '</p>' +
+      '<div class="chips">' + chips.join('') + '</div>' +
+      '<div class="when"><b>Cuándo conviene.</b> ' + p.when + '</div>';
+    elPaths.appendChild(b);
+  });
+
+  elTitle.textContent = touched ? 'Su recorrido' : 'Recorrido recomendado';
+  elSub.textContent = touched
+    ? 'En el orden en que los fue eligiendo. Los requisitos previos se incorporan automáticamente.'
+    : 'El orden que haríamos nosotros. Modifíquelo y pasa a ser el suyo.';
+
+  elRoute.innerHTML = '';
+  if (!route.length) {
+    elRoute.innerHTML = '<p class="empty">Todavía no eligió ningún camino. Los dos cimientos se realizan de todos modos: son la base de todo lo demás.</p>';
+  } else {
+    route.forEach((id, i) => {
+      const p = byId(id);
+      const li = document.createElement('li');
+      li.innerHTML = '<span class="ord">' + (i + 1) + '</span>' +
+        '<span class="route-name">' + p.name +
+        '<span class="route-cost">' + (p.inProposal ? 'Incluido en la propuesta' : 'Se cotiza por separado') + '</span></span>';
+      elRoute.appendChild(li);
+    });
+  }
+
+  const aparte = route.filter(id => !byId(id).inProposal).length;
+  elCov.innerHTML = aparte === 0
+    ? 'Todo lo que eligió está <b>cubierto por la propuesta vigente</b>, junto con los dos cimientos.'
+    : 'De este recorrido, <b>' + (route.length - aparte) + ' de ' + route.length + '</b> están cubiertos por la propuesta vigente. Los otros ' + (aparte === 1 ? 'se cotiza' : 'se cotizan') + ' por separado cuando se decidan.';
+}
+
+document.getElementById('reset').addEventListener('click', () => { route = RECOMMENDED.slice(); touched = false; render(); });
+document.getElementById('clear').addEventListener('click', () => { route = []; touched = true; render(); });
+
+render();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "etapa": "Fase 1 · Relevamiento",
+  "nav": [
+    {
+      "id": "inicio",
+      "label": "Inicio",
+      "tipo": "inicio"
+    },
+    {
+      "id": "propuesta",
+      "label": "Propuesta",
+      "tipo": "pagina",
+      "src": "paginas/propuesta.html",
+      "descripcion": "Los caminos del proyecto y el orden recomendado."
+    },
+    {
+      "id": "avances",
+      "label": "Avances",
+      "tipo": "avances",
+      "descripcion": "Una minuta por reunión, con compromisos y estado."
+    },
+    {
+      "id": "entregables",
+      "label": "Entregables",
+      "tipo": "entregables",
+      "descripcion": "Qué se entrega y dónde está."
+    }
+  ]
+}
