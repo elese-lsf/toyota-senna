@@ -1,0 +1,112 @@
+[
+  {
+    "id": "minuta-2026-11-19-validacion-proceso",
+    "fecha": "2026-11-19",
+    "fechaTxt": "19/11/2026",
+    "titulo": "Validación del proceso de punta a punta",
+    "origen": "Reunión del 19/11",
+    "proxima": "Miércoles 25/11 · 17:30",
+    "proxima_tema": "Conexiones, bases de datos y flujo de cada fase",
+    "resumen": "Se revisó y validó el proceso completo, de la alta de la venta a la entrega. La migración de contratos físicos a digital queda fuera del alcance inicial. La Fase 1 arranca por la comunicación con los clientes desde la bienvenida por WhatsApp, con aviso de vencimiento y mora preventiva. Se acordó trabajar con dos bases de datos, una que se actualiza a diario y otra histórica mensual, con conexión de solo lectura a los sistemas de origen. La estrategia de recupero para mora prolongada queda por definir.",
+    "items": [
+      {
+        "parte": "eLabs",
+        "txt": "Consultar vías de extracción de datos de Newcon",
+        "resp": "The eLabs",
+        "cuando": "Martes 24/11",
+        "estado": "pendiente"
+      },
+      {
+        "parte": "eLabs",
+        "txt": "Enviar la minuta y habilitar la carpeta compartida con la presentación",
+        "resp": "The eLabs",
+        "cuando": "Esta semana",
+        "estado": "pendiente"
+      },
+      {
+        "parte": "eLabs",
+        "txt": "Detallar el flujo de cada fase prioritaria y la estructura de las bases",
+        "resp": "The eLabs",
+        "cuando": "Semana del 23/11",
+        "estado": "pendiente"
+      },
+      {
+        "parte": "Senna",
+        "txt": "Compartir los reportes de mora por tramos con datos anonimizados",
+        "resp": "Luis",
+        "cuando": "Martes 24/11",
+        "estado": "pendiente"
+      },
+      {
+        "parte": "Senna",
+        "txt": "Verificar cómo se relacionan los datos de contacto entre sistemas",
+        "resp": "Guido",
+        "cuando": "Martes 24/11",
+        "estado": "pendiente"
+      },
+      {
+        "parte": "Senna",
+        "txt": "Mapa de derivaciones por sector y cartera activa de arranque",
+        "resp": "Senna",
+        "cuando": "Semana del 23/11",
+        "estado": "pendiente"
+      },
+      {
+        "parte": "Senna",
+        "txt": "Reunión corta de revisión de conexiones y bases",
+        "resp": "Todos",
+        "cuando": "Martes 24/11",
+        "estado": "pendiente"
+      }
+    ],
+    "pdf": ""
+  },
+  {
+    "id": "minuta-2026-11-12-kickoff",
+    "fecha": "2026-11-12",
+    "fechaTxt": "12/11/2026",
+    "titulo": "Kickoff y relevamiento del proceso",
+    "origen": "Reunión del 12/11",
+    "proxima": "Jueves 19/11",
+    "proxima_tema": "Validación del proceso de punta a punta",
+    "resumen": "Se relevó el proceso actual de punta a punta: alta de la venta, scoring, agrupamiento, bienvenida, cupones, mora, recupero, licitación, adjudicación y entrega. El envío de cupones resultó ser el principal punto de dolor. Se definió que el canal de comunicación con los clientes es WhatsApp. Como requisitos para el sistema, el equipo de Senna debe poder ver todas las conversaciones y los casos complejos se derivan a una persona.",
+    "items": [
+      {
+        "parte": "eLabs",
+        "txt": "Enviar el mapa del proceso actual para su validación",
+        "resp": "The eLabs",
+        "cuando": "Reunión del 19/11",
+        "estado": "hecho"
+      },
+      {
+        "parte": "eLabs",
+        "txt": "Coordinar sesiones sobre reportes comerciales y adjudicación",
+        "resp": "The eLabs",
+        "cuando": "A definir",
+        "estado": "pendiente"
+      },
+      {
+        "parte": "Senna",
+        "txt": "Material de cobranza actual: reporte de mora, plantilla de mensajes e instructivo de cupones",
+        "resp": "Luis",
+        "cuando": "A definir",
+        "estado": "pendiente"
+      },
+      {
+        "parte": "Senna",
+        "txt": "Datos de cartera: débito automático, licitantes por mes y datos de contacto disponibles",
+        "resp": "Luis y Gabriela",
+        "cuando": "A definir",
+        "estado": "pendiente"
+      },
+      {
+        "parte": "Senna",
+        "txt": "Infraestructura y accesos: cuenta, servidor y usuario dedicado",
+        "resp": "Guido",
+        "cuando": "A definir",
+        "estado": "pendiente"
+      }
+    ],
+    "pdf": ""
+  }
+]
