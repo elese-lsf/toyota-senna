@@ -12,7 +12,7 @@ Se revisó y validó el proceso completo, de la alta de la venta a la entrega. L
 
 | Compromiso | Responsable | Para cuándo | Estado |
 |---|---|---|---|
-| Consultar vías de extracción de datos de Newcon | The eLabs | Martes 24/11 | Pendiente |
+| Consultar vías de extracción de datos de Newcon | The eLabs | Miércoles 25/11 | Pendiente |
 | Enviar la minuta y habilitar la carpeta compartida con la presentación | The eLabs | Esta semana | Pendiente |
 | Detallar el flujo de cada fase prioritaria y la estructura de las bases | The eLabs | Semana del 23/11 | Pendiente |
 
@@ -20,7 +20,7 @@ Se revisó y validó el proceso completo, de la alta de la venta a la entrega. L
 
 | Compromiso | Responsable | Para cuándo | Estado |
 |---|---|---|---|
-| Compartir los reportes de mora por tramos con datos anonimizados | Luis | Martes 24/11 | Pendiente |
-| Verificar cómo se relacionan los datos de contacto entre sistemas | Guido | Martes 24/11 | Pendiente |
+| Compartir los reportes de mora por tramos con datos anonimizados | Luis | Miércoles 25/11 | Pendiente |
+| Verificar cómo se relacionan los datos de contacto entre sistemas | Guido | Miércoles 25/11 | Pendiente |
 | Mapa de derivaciones por sector y cartera activa de arranque | Senna | Semana del 23/11 | Pendiente |
-| Reunión corta de revisión de conexiones y bases | Todos | Martes 24/11 | Pendiente |
+| Reunión corta de revisión de conexiones y bases | Todos | Miércoles 25/11 | Pendiente |
